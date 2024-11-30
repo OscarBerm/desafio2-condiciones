@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Desafio Condiciones</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container img">
+        <img class="imgb" src="https://placedog.net/500" alt="" />
+    </div>
+    <div class="container sticker">
+        <p>Puedes llevar hasta 10 stickers en total</h>
+        <div class="container-card">
+            <div class="card">
+                <img class="imgb" src="./assets/img/kazuha.png" alt="" />
+                <input type="number" min="0" id="sticker1"/>
+            </div>
+            <div class="card">
+                <img class="imgb" src="./assets/img/raiden.png" alt="" />
+                <input type="number" min="0" id="sticker2"/>
+            </div>
+            <div class="card">
+                <img class="imgb" src="./assets/img/xiao.png" alt="" />
+                <input type="number" min="0" id="sticker3"/>
+            </div>     
+        </div>
+        <div class="verificar">
+            <button type="submit" id="verificar">Verificar</button>
+            <p id="resultado"> </p>
+        </div>
+    </div>
+
+    <div class="container password">
+        <h1>Ingresa el password</h1>
+        <div>
+            <select name="" id="digit1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="" id="digit2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="" id="digit3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button type="submit" id="ingresar">Ingresar</button>
+        <p id="messagePassword"></p>
+
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>

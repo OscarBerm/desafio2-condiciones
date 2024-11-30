@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.container.img {
+    height: 80vh;
+}
+.container.sticker {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+.container.password {
+    gap: 20px;
+}
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.verificar {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.imgb {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
